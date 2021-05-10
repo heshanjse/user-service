@@ -1,0 +1,14 @@
+#spring:
+#  cloud:
+#    config:
+#      enabled: true
+#      uri: http://localhost:9296
+#  datasource:
+#    dirverClassName: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/dep_service
+#    username: root
+#    password: 1234abcd
+#  jpa:
+#    hibernate.ddl-auto: update
+#    generate-ddl: true
+#    show-sql: true
